@@ -110,10 +110,10 @@ class _SignupPageState extends State<SignupPage> {
               alignment: Alignment.center,
               child: FlatButton(
                 child: Text(
-                  'Cancelar',
+                  'Cancel',
                   textAlign: TextAlign.center,
                 ),
-                onPressed: () {}, // => Navigation.pop(context, false),
+                onPressed: () => Navigator.pop(context, false),
               ),
             )
           ],
